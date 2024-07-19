@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>GitHub Avatar Fetcher</h1>
+        <label for="username" id="lab">Enter the Name</label>
+        <div id="n">
+            <input type="text" id="username">
+            <button onclick="getUserInfo()">Submit</button>
+        </div>
+        
+        <p id="error-message"></p>
+        <img src=" " alt=""  id="avatar_url">
+    </div>
+        
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    </body>
+</html>
